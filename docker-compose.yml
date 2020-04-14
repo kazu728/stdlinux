@@ -1,0 +1,9 @@
+version: "3"
+services:
+  cpp:
+    image: "gcc:9.2"
+    volumes:
+      - ./cpp:/src/cpp
+    working_dir: /src/cpp
+    stdin_open: true
+    tty: true
