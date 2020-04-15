@@ -3,7 +3,7 @@ services:
   cpp:
     image: "gcc:9.2"
     volumes:
-      - ./cpp:/src/cpp
+      - ./src:/src/cpp
     working_dir: /src/cpp
     stdin_open: true
     tty: true
