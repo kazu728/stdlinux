@@ -12,3 +12,7 @@ nix = "0.20.0"
 [[bin]]
 name = "cat"
 path = "src/cat/main.rs"
+
+[[bin]]
+name = "wc"
+path = "src/wc/main.rs"
