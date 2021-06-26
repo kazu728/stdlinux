@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 nix = "0.20.0"
+getopts = "0.2"
 
 [[bin]]
 name = "cat"
@@ -16,3 +17,6 @@ path = "src/cat/main.rs"
 [[bin]]
 name = "wc"
 path = "src/wc/main.rs"
+[[bin]]
+name = "head"
+path = "src/head/main.rs"
