@@ -30,3 +30,7 @@ path = "src/stream/grep/main.rs"
 [[bin]]
 name = "ls"
 path = "src/stream/ls/main.rs"
+
+[[bin]]
+name = "mkdir"
+path = "src/stream/mkdir/main.rs"
