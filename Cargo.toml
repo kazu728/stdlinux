@@ -1,14 +1,16 @@
 [package]
-name = "stream"
-version = "0.1.0"
 authors = ["Kazuki Matsuo <kazuki.matsuo.728@gmail.com>"]
 edition = "2018"
+name = "stream"
+version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-nix = "0.20.0"
 getopts = "0.2"
+nix = "0.20.0"
+regex = "1.5.4"
+
 
 [[bin]]
 name = "cat"
@@ -16,7 +18,12 @@ path = "src/stream/cat/main.rs"
 
 [[bin]]
 name = "wc"
-path = "src/wc/main.rs"
+path = "src/stream/wc/main.rs"
+
 [[bin]]
 name = "head"
-path = "src/head/main.rs"
+path = "src/stream/head/main.rs"
+
+[[bin]]
+name = "grep"
+path = "src/stream/grep/main.rs"
