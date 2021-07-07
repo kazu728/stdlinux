@@ -11,7 +11,6 @@ getopts = "0.2"
 nix = "0.20.0"
 regex = "1.5.4"
 
-
 [[bin]]
 name = "cat"
 path = "src/stream/cat/main.rs"
@@ -27,3 +26,7 @@ path = "src/stream/head/main.rs"
 [[bin]]
 name = "grep"
 path = "src/stream/grep/main.rs"
+
+[[bin]]
+name = "ls"
+path = "src/stream/ls/main.rs"
