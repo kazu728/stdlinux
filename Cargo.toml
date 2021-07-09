@@ -34,3 +34,7 @@ path = "src/stream/ls/main.rs"
 [[bin]]
 name = "mkdir"
 path = "src/stream/mkdir/main.rs"
+
+[[bin]]
+name = "spawn"
+path = "src/process/spawn/main.rs"
