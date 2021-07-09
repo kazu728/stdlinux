@@ -13,28 +13,28 @@ regex = "1.5.4"
 
 [[bin]]
 name = "cat"
-path = "src/stream/cat/main.rs"
+path = "src/cat.rs"
 
 [[bin]]
 name = "wc"
-path = "src/stream/wc/main.rs"
+path = "src/wc.rs"
 
 [[bin]]
 name = "head"
-path = "src/stream/head/main.rs"
+path = "src/head.rs"
 
 [[bin]]
 name = "grep"
-path = "src/stream/grep/main.rs"
+path = "src/grep.rs"
 
 [[bin]]
 name = "ls"
-path = "src/stream/ls/main.rs"
+path = "src/ls.rs"
 
 [[bin]]
 name = "mkdir"
-path = "src/stream/mkdir/main.rs"
+path = "src/mkdir.rs"
 
 [[bin]]
 name = "spawn"
-path = "src/process/spawn/main.rs"
+path = "src/spawn.rs"
