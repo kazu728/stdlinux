@@ -38,3 +38,7 @@ path = "src/mkdir.rs"
 [[bin]]
 name = "spawn"
 path = "src/spawn.rs"
+
+[[bin]]
+name = "shell"
+path = "src/shell.rs"
