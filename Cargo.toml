@@ -46,3 +46,7 @@ path = "src/shell.rs"
 [[bin]]
 name = "trap"
 path = "src/trap.rs"
+
+[[bin]]	
+name = "daytime"
+path = "src/daytime.rs"
